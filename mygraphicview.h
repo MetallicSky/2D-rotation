@@ -1,18 +1,10 @@
 #ifndef MYGRAPHICVIEW_H
 #define MYGRAPHICVIEW_H
 
-#include <QWidget>
+
 #include <QGraphicsView>
-#include <QGraphicsScene>
-#include <QGraphicsItemGroup>
-#include <QVector>
-#include <QGraphicsPolygonItem>
-#include <QBrush>
 #include <QMouseEvent>
-#include <QGraphicsSceneMouseEvent>
 #include <QtMath>
-
-
 
 #include "figure.h"
 #include "dot.h"

@@ -28,6 +28,7 @@ void MainWindow::on_checkBox_autoRestart_stateChanged(int arg1)
 void MainWindow::on_pushButton_restart_clicked()
 {
     myPicture->restart();
+    ui->spinBox_RotDeg->setValue(0);
 }
 
 void MainWindow::on_scene_dotChanged()
